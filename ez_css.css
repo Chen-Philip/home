@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: "Copperplate Gothic Bold", "Matura MT Script Capitals", "Bauhaus 93", sans-serif;
+	color: white;
+	border-color: lightgreen; 
+	border-width: 5pt;
+	border-style: solid;
+	margin: 2%;
+	padding: 2%;
+}
+
+h1 {
+	font-size: 48pt;
+	text-align: center;
+	/* This is to make the thing look more organised. Start of border css */
+	border-color: cyan; 
+	border-width: 5pt;
+	border-style: solid;
+	/* End of border css*/
+}
+h2, h3 {
+	font-family: "Copperplate Gothic Light", "Matura MT Script Capitals", sans-seriff;
+}
+
+h2 {
+	font-size: 30pt;
+	text-decoration: underline;
+}
+h3 {
+	font-size: 20pt;
+}
+
+#headingcss {
+	/* this is used to make a table of contents for my website*/
+	text-align: center;
+	/* This is to make the thing look more organised. Start of border css */
+	border-color: cyan; 
+	border-width: 5pt;
+	border-style: solid;
+	/* End of border css*/
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+p, ul {
+	font-size: 17pt;
+}
+
+.bib{
+	text-align: center;
+}
+
+a:link, a:visited {
+	color:white; 
+}
+a:active {
+	color:gray; 
+	background-color:transparent; 
+}
